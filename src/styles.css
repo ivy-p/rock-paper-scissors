@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  margin: 75px 100px 50px 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.choice-container {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  margin-bottom: 60px;
+}
+
+.choice-container h2 {
+  margin: 10px 15px;
+}
+
+.result-container {
+  margin-bottom: 30px;
+}
+
+.result-container h2 {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+button {
+  padding: 12px 30px;
+  font-family: "Poor Story", cursive;
+  font-size: 1.8rem;
+  border: none;
+  border-radius: 25px;
+  background-color: khaki;
+  text-transform: uppercase;
+  cursor: pointer;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
+    rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  margin: 10px 4px;
+}
+
+span {
+  color: steelblue;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: navajowhite;
+}
